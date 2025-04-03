@@ -26,3 +26,19 @@
     left: 8rem
     
 }
+.part{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: left;
+    padding: 3rem;
+}
+.text{
+    position: relative;
+    top: 5rem;
+}
+.learnbutton{
+    padding: 0.7rem;
+    background-color: #4CAF4F;
+    border-color: #4CAF4F;
+    color: white;
+}
