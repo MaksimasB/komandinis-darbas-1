@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.helping {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  background-color: #f5f7fa;
+  padding-block: 2rem;
+}
+
+.helping-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.helping-icon-section {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    color: #717171;
+  }
+}
+
+.btn {
+  padding-block: 1rem;
+  padding-inline: 4rem;
+  background-color: #4caf4f;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.2rem;
+  width: 30%;
+}
+
+.how-to-design {
+  display: flex;
+  flex-direction: row;
+  padding: 5rem;
+}
+
+.how-to-design-article {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: flex-start;
+
+  p {
+    color: #717171;
+  }
+}
+
+.tesla {
+  display: flex;
+  flex-direction: row;
+  padding: 5rem;
+  background-color: #f5f7fa;
+}
+
+.tesla-article {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: flex-start;
+
+  p {
+    color: #717171;
+  }
+}
+
+.tesla-icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+}
+
+.marketing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 5rem;
+}
+
+.marketing-figures {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.fringilla {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-block: 5rem;
+    background-color: #F5F7FA;
+
+    h1 {
+        font-size: 3rem;
+    }
+}
