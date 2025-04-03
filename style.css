@@ -1,0 +1,7 @@
+.head{
+    text-align: center;
+}
+.pic{
+    display: flex;
+    justify-content: space-around;
+}
