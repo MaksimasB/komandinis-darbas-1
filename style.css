@@ -1,0 +1,106 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    width: 100wh;
+}
+
+.topnav {
+    display: flex;
+    background-color: #f5f7fa;
+    padding: 1rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+
+    .navlogo {
+        padding-left: 100px;
+    }
+
+    .navbuttons {
+        padding-right: 100px;
+    }
+
+    .button1 {
+        background-color: #f5f7fa;
+        color: #4CAF4F;
+        border-color: #8ec2f2;
+        margin: 5px;
+        border: none;
+        cursor: pointer;
+        font-size: 15px;
+        text-align: center;
+        padding: 15px 32px;
+        display: inline-block;
+        margin: 4px 2px;
+    }
+
+    .button2 {
+        background-color: #4CAF4F;
+        color: white;
+        margin: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 15px;
+        text-align: center;
+        border: none;
+        padding: 15px 32px;
+        display: inline-block;
+        margin: 4px 2px;
+    }
+    nav {
+        justify-content: center;
+    }
+}
+.topnav a {
+    float: right;
+    text-align: right;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+.main {
+    display: flex;
+    background-color: #f5f7fa;
+    max-inline-size: 100%;
+    height: 35rem;
+    align-items: center;
+    font-size: 30px;
+    padding-left: 150px;
+
+    .greentext {
+        color: #4CAF4F;
+    }
+
+    p {
+        color: #717171;
+        font-size: 15px;
+    }
+    .headphoto {
+        display: flex;
+        float: right;
+        padding-left: 250px;
+    }
+    .button2 {
+        background-color: #4CAF4F;
+        color: white;
+        margin: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 15px;
+        text-align: center;
+        border: none;
+        padding: 15px 32px;
+        display: inline-block;
+        margin: 4px 2px;
+    }
+}
+.dots{
+    display: flex;
+    justify-content: center;
+    background-color: #f5f7fa;
+    padding: 10px;
+    gap: 10px;
+}
