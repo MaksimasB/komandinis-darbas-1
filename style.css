@@ -1,7 +1,28 @@
 .head{
     text-align: center;
+    padding: 1rem;
 }
 .pic{
     display: flex;
     justify-content: space-around;
+}
+.head2{
+    text-align: center;
+    padding: 2rem;
+}
+.pic2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    
+}
+.icon {
+    text-align: center;
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    border-color: #e1d7d7;
+    width: 15rem;
+    position: relative;
+    left: 8rem
+    
 }
